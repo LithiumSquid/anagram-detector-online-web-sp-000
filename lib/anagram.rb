@@ -11,9 +11,9 @@ class Anagram
   
   def match(words)
     answer_array = []
-    words.each do |x| 
+    words.each do {|x| 
       if @special_word.sort == x.split("").sort
-        answer_array << x
+        answer_array << x}
         return answer_array
   end
 end
