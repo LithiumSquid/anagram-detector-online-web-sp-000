@@ -13,6 +13,7 @@ class Anagram
     answer_array = []
     words.each do |x| 
       if @special_word.sort == x.split("").sort
+        binding.pry
         answer_array << x
       end
       answer_array
