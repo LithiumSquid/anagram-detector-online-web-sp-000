@@ -14,8 +14,7 @@ class Anagram
     words.each do |x| 
       if @special_word.sort == x.split("").sort
         answer_array << x
-      end
-      answer_array
+        answer_array
   end
 end
   
