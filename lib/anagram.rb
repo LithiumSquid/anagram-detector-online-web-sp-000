@@ -17,6 +17,7 @@ class Anagram
         answer_array
   end
 end
+end
   
 
 end
